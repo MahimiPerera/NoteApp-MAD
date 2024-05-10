@@ -18,9 +18,9 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/poppins"
-            android:text="Add Note."
+            android:text="Add Item here"
             android:textStyle="bold"
-            android:textColor="@color/red"
+            android:textColor="@color/lightgreen"
             android:textSize="24sp" />
 
         <EditText
@@ -29,9 +29,9 @@
             android:layout_height="60dp"
             android:layout_below="@id/addNoteHeading"
             android:layout_marginTop="16dp"
-            android:background="@drawable/pink_border"
+            android:background="@drawable/green_border"
             android:fontFamily="@font/poppins"
-            android:hint="Enter the title"
+            android:hint="Enter the Item"
             android:maxLines="1"
             android:padding="12dp"
             android:textSize="20sp" />
@@ -45,7 +45,7 @@
             android:padding="12dp"
             android:textSize="18sp"
             android:fontFamily="@font/poppins"
-            android:background="@drawable/pink_border"
+            android:background="@drawable/green_border"
             android:layout_below="@id/addNoteTitle"
             android:layout_marginTop="12dp" />
 
